@@ -30,3 +30,279 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 200px) {
+  .carousel {
+    width:auto;
+    height:auto;
+  }
+}
+
+.carousel {
+  width: 100%;
+  height: 602px;
+  top: 1px;
+  margin: auto;
+  background-size: cover;
+}
+
+.image{
+  width:1500px;
+  height:600px;
+}
+
+/* Custimized CSS */
+
+.top-header-bar {
+  background: tomato;
+  color: #fff;
+}
+
+.header-bar-email,
+.header-bar-text {
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.header-bar-email a,
+.header-bar-text span {
+  text-transform: lowercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-bar-text {
+  margin-left: 48px;
+}
+
+.header-bar-text p {
+  margin: 0;
+}	
+
+.site-navigation ul {
+  position: fixed;
+  top: 0;
+  left: -320px;
+  z-index: 9999;
+  width: 320px;
+  max-width: calc(100% - 120px);
+  height: 100%;
+  padding: 30px 15px;
+  margin: 0;
+  background: #fff;
+  list-style: none;
+  overflow-x: scroll;
+  transition: all 0.35s;
+}
+
+.site-navigation.show ul {
+  left: 0;
+}
+
+.site-navigation ul li {
+  margin: 0 16px;
+}
+
+.site-navigation ul li a {
+  display: block;
+  padding: 16px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  color: #262626;
+  text-decoration: none;
+  transition: color .35s;
+}
+
+@media screen and (min-width: 992px) {
+  .site-navigation ul {
+    position: relative;
+    top: auto;
+    left: 215px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: auto;
+    background: transparent;
+  }
+
+  .site-navigation ul li a {
+    padding: 49px 0 30px;
+  }
+}
+
+.site-navigation ul li a:hover,
+.site-navigation ul li.current-menu-item a {
+  border-bottom: 3px solid #ff5a00;
+  color: #ff5a00;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+a {
+text-decoration: none;
+color: #fff;
+}
+p > a:hover{
+color: #d9d9d9;
+text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin:  1% 0 1% 0;
+}
+._12 {
+font-size: 1.2em;
+}
+._14 {
+font-size: 1.4em;
+}
+ul {
+padding:0;
+list-style: none;
+}
+.footer-social-icons {
+width: 261px;
+display:block;
+margin: 0 auto;
+}
+.social-icon {
+color: white;
+}
+ul.social-icons {
+margin-top: 10px;
+}
+.social-icons li {
+vertical-align: top;
+display: inline;
+height: 100px;
+}
+.social-icons a {
+color: white;
+text-decoration: none;
+}
+.fa-facebook {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-facebook:hover {
+background-color: #3d5b99;
+}
+.fa-twitter {
+padding:10px 12px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-twitter:hover {
+background-color: #00aced;
+}
+.fa-rss {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-rss:hover {
+background-color: #eb8231;
+}
+.fa-youtube {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-youtube:hover {
+background-color: #e64a41;
+}
+.fa-linkedin {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-linkedin:hover {
+background-color: #0073a4;
+}
+.fa-google-plus {
+padding:10px 9px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-google-plus:hover {
+background-color: #e25714;
+}
+
+/* Footer */
+a:link {
+color: teal;
+}
+
+a:hover {
+color: orange;
+}
+
+.reserve{
+background-color: tomato;
+padding: 1em 1.5em;
+text-decoration: none;
+text-transform: uppercase;
+color: white !important;
+}
+
+.book{
+  background-color: tomato;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white !important;
+  }
+
+.container {
+max-width: 1250px !important;
+}
+
+.background{
+  background-color: #21d192;
+}
+
+.card {
+  position: relative;
+  display:inline-block;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  width: 20rem;
+}
