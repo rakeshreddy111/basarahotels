@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Carousel from './components/ControlledCarousel';
 import Footer from './components/FooterBar';
 import Hotel from './components/Hotel';
+import Form from './components/Form';
 import './App.css';
 
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Hotel />
           <Hotel />
           <Hotel />
+          <Form />
           <Footer />
       </div>
     );
