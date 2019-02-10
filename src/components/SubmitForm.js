@@ -5,7 +5,7 @@ import '../App.css';
 class SubmitForm extends Component {
     render() {
       return (
-        <Form style={{width: '600px' , margin: '0 auto'}}>
+        <Form style={{width: '600px' , margin: '0 auto'}} netlify>
         <h3>Reserve a Room</h3>
         <Row form>
           <Col md={4}>
