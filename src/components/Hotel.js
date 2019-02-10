@@ -23,7 +23,7 @@ class Hotel extends Component {
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card content.</CardText>
-          <Button>Book</Button>
+          <a class="book" href="portfolio.html">BOOK</a>
         </CardBody>
       </Card>
 
@@ -33,7 +33,7 @@ class Hotel extends Component {
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card content.</CardText>
-          <Button>Book</Button>
+          <a class="book" href="portfolio.html">BOOK</a>
         </CardBody>
       </Card>
 

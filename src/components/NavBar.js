@@ -24,10 +24,6 @@ class NavBar extends Component {
                     <div class="footer-social-icons">
 						<h5 class="_10">Follow us on</h5>
                         <ul class="social-icons">
-                        <SocialIcon class="social-icon" url="http://twitter.com/jaketrent" />
-                        <SocialIcon class="social-icon" url="https://plus.google.com/u/0/+RakeshReddy11?tab=wX" />
-                        
-                        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
 							<li></li>
 							<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
 							<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>

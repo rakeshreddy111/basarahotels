@@ -27,16 +27,13 @@ class FooterBar extends Component {
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Products</h6>
                         <p>
-                            <a href="#!">MDBootstrap</a>
+                            <a href="#!">Reserve a Room</a>
                         </p>
                         <p>
-                            <a href="#!">MDWordPress</a>
+                            <a href="#!">Darshanam</a>
                         </p>
                         <p>
-                            <a href="#!">BrandFlow</a>
-                        </p>
-                        <p>
-                            <a href="#!">Bootstrap Angular</a>
+                            <a href="#!">Tour Packages</a>
                         </p>
                     </div>
       
