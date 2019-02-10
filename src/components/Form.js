@@ -5,7 +5,7 @@ import '../App.css';
 class Form extends Component {
     render() {
       return (
-        <form name="contact" netlify>
+        <form name="contact" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
