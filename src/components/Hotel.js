@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import k1 from '../images/kamdhenu/k1.JPG';
+import k2 from '../images/kamdhenu/k2.JPG';
+import k3 from '../images/kamdhenu/k3.JPG';
+import k4 from '../images/kamdhenu/k4.JPG';
+import Slider from "react-slick";
 import '../App.css';
 
 class Hotel extends Component {
     render() {
+      var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        adaptiveHeight: false,
+        variableWidth: false
+      };
+
       return (
         <div>
         <h3>Hotel 1</h3>
@@ -37,6 +52,7 @@ class Hotel extends Component {
         </CardBody>
       </Card>
 
+  
         </div>
       );
     }

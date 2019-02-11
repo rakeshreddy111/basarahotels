@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import NetlifyForm from 'react-netlify-form';
 import '../App.css';
 
 class SubmitForm extends Component {
     render() {
       return (
-        <Form style={{width: '600px' , margin: '0 auto'}} netlify>
+        <div>
+        <Form method="POST" style={{width: '600px' , margin: '0 auto'}} netlify="true">
         <h3>Reserve a Room</h3>
         <Row form>
           <Col md={4}>
@@ -136,6 +138,30 @@ class SubmitForm extends Component {
         </Row>
         <Button>Submit</Button>
         </Form>
+
+        <NetlifyForm name='Contact Form'>
+  {({ loading, error, success }) => (
+    <div>
+      {loading &&
+        <div>Loading...</div>
+      }
+      {error &&
+        <div>Your information was not sent. Please try again later.</div>
+      }
+      {success &&
+        <div>Thank you for contacting us!</div>
+      }
+      {!loading && !success &&
+        <div>
+          <input type='text' name='Name' required />
+          <textarea name='Message' required />
+          <button>Submit</button>
+        </div>
+      }
+    </div>
+  )}
+</NetlifyForm>
+</div>
       );
     }
   }
