@@ -4,8 +4,16 @@ import NetlifyForm from 'react-netlify-form';
 import '../App.css';
 
 class SubmitForm extends Component {
+  
     render() {
       return (
+        <div>
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <p>
@@ -21,6 +29,7 @@ class SubmitForm extends Component {
             <button type="submit">Send</button>
           </p>
         </form>
+        </div>
       );
     }
   }
