@@ -1,137 +1,121 @@
 import React, { Component } from 'react';
-import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
-import NetlifyForm from 'react-netlify-form';
 import '../App.css';
 
 class SubmitForm extends Component {
   
     render() {
       return (
-        <Form name="contact" style={{width: '600px' , margin: '0 auto'}} method="post">
-        <h3>Reserve a Room</h3>
-        <Row form>
-          <Col md={6}>
-            <FormGroup>
-              <Label for="firstName">First Name</Label>
-              <Input type="text" name="firstName" id="firstName" placeholder="First Name" />
-            </FormGroup>
-          </Col>
-          <Col md={6}>
-            <FormGroup>
-              <Label for="lastName">Last Name</Label>
-              <Input type="text" name="lastName" id="lastName" placeholder="Last Name" />
-            </FormGroup>
-          </Col>
-        </Row>
-        <Row form>
-          <Col md={8}>
-          <FormGroup>
-            <Label for="emailAddress">Email</Label>
-            <Input type="email" name="email" id="emailAddress" placeholder="Email"/>
-          </FormGroup>
-          </Col>
-          <Col md={4}>
-          <FormGroup>
-            <Label for="phoneNumber">Phone Number</Label>
-            <Input type="text" name="phoneNumber" id="phoneNumber" placeholder="phone Number"/>
-          </FormGroup>
-          </Col>
-        </Row>
-        <Row form>
-          <Col md={6}>
-          <FormGroup>
-          <Label for="checkinDate">Check-in Date</Label>
-          <Input
-            type="date"
-            name="checkinDate"
-            id="checkinDate"
-            placeholder="Check-in Date"
-          />
-          </FormGroup>
-          </Col>
-          <Col md={6}>
-          <FormGroup>
-          <Label for="checkoutDate">Check-out Date</Label>
-          <Input
-            type="date"
-            name="checkoutDate"
-            id="checkoutDate"
-            placeholder="Check-out Date"
-          />
-          </FormGroup>
-          </Col>
-        </Row>
-        <Row form>
-          <Col md={4}>
-            <FormGroup>
-            <Label for="rooms">Number of Rooms</Label>
-            <Input type="select" name="rooms" id="rooms">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </Input>
-            </FormGroup>
-          </Col>
+        <div>
+        <span style={{textAlign: 'center'}} class="contact100-form-title">
+					Reserve a Room
+				</span>
+        <form name="contact" style={{width: '750px' , margin: '0 auto', textAlign: 'left'}} method="post">
+          <input type="hidden" name="form-name" value="contact" />
 
-          <Col md={4}>
-            <FormGroup>
-            <Label for="adults">Number of Adults</Label>
-            <Input type="select" name="adults" id="adults">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </Input>
-            </FormGroup>
-          </Col>
+        <div class="row">
+				  <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+					  <span class="label-input100">First Name</span>
+					    <input class="input100 mr-2" type="text" name="firstName"/>
+					  <span class="focus-input100"></span>
+				  </div>
 
-          <Col md={4}>
-            <FormGroup>
-            <Label for="children">Number of Children</Label>
-            <Input type="select" name="children" id="children">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </Input>
-            </FormGroup>
-          </Col>
-          
-         </Row>
-        <FormGroup>
-          <Label for="exampleAddress">Address</Label>
-          <Input type="text" name="address" id="exampleAddress" placeholder="1234 Main St"/>
-        </FormGroup>
-        <FormGroup>
-          <Label for="exampleAddress2">Address 2</Label>
-          <Input type="text" name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor"/>
-        </FormGroup>
-        <Row form>
-          <Col md={6}>
-            <FormGroup>
-              <Label for="exampleCity">City</Label>
-              <Input type="text" name="city" id="exampleCity"/>
-            </FormGroup>
-          </Col>
-          <Col md={4}>
-            <FormGroup>
-              <Label for="exampleState">State</Label>
-              <Input type="text" name="state" id="exampleState"/>
-            </FormGroup>
-          </Col>
-          <Col md={2}>
-            <FormGroup>
-              <Label for="exampleZip">Zip</Label>
-              <Input type="text" name="zip" id="exampleZip"/>
-            </FormGroup>  
-          </Col>
-        </Row>
-        <Button>Submit</Button>
-        </Form>
+				  <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+					  <span class="label-input100">Last Name</span>
+					    <input class="input100 mr-2" type="text" name="lastName"/>
+					  <span class="focus-input100"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Email Address</span>
+                <input class="input100" type="email" name="email"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Phone Number</span>
+                <input class="input100" type="text" name="phoneNumber"/>
+              <span class="focus-input100"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Check-in Date</span>
+                <input class="input100" type="date" name="checkinDate"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Check-out Date</span>
+                <input class="input100" type="date" name="checkoutDate"/>
+              <span class="focus-input100"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Number of Rooms</span>
+                <input class="input100" type="text" name="rooms"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Number of Adults</span>
+                <input class="input100" type="text" name="rooms"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Number of Children</span>
+                <input class="input100" type="text" name="children"/>
+              <span class="focus-input100"></span>
+          </div>
+        </div>
+
+        <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+					  <span class="label-input100">Address</span>
+					    <input class="input100" type="text" name="address" placeholder="1234 Main St"/>
+					  <span class="focus-input100"></span>
+        </div>
+
+        <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+					  <span class="label-input100">Address 2</span>
+					    <input class="input100" type="text" name="address2" placeholder="Apartment, studio, or floor"/>
+					  <span class="focus-input100"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">City</span>
+                <input class="input100" type="text" name="city"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">State</span>
+                <input class="input100" type="text" name="state"/>
+              <span class="focus-input100"></span>
+          </div>
+
+          <div class="col-sm-4 wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Zip</span>
+                <input class="input100" type="text" name="zip"/>
+              <span class="focus-input100"></span>
+          </div>
+        </div>
+
+				<div style={{textAlign: 'center'}} class="container-contact100-form-btn" >
+					<button class="contact100-form-btn">
+						<span>
+							Book
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+        </form>
+        </div>
       );
     }
   }
