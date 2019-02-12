@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import Carousel from './components/ControlledCarousel';
 import Footer from './components/FooterBar';
-import Hotel from './components/Hotel';
+import WisdomResorts from './components/WisdomResorts';
+import Kamdhenu from './components/Kamdhenu';
 import SubmitForm from './components/SubmitForm';
 import './App.css';
 
@@ -20,10 +21,12 @@ class App extends Component {
     </div>
           <NavBar />
           <Carousel />
-          <Hotel />
-          <Hotel />
-          <Hotel />
+          <WisdomResorts />
+          <br />
+          <Kamdhenu />
+          <br />
           <SubmitForm />
+          <br />
           <Footer />
       </div>
     );
