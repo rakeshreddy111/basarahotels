@@ -5,6 +5,7 @@ import Footer from './components/FooterBar';
 import WisdomResorts from './components/WisdomResorts';
 import Kamdhenu from './components/Kamdhenu';
 import SubmitForm from './components/SubmitForm';
+import VNRLodge from './components/VNRLodge';
 import './App.css';
 
 
@@ -24,6 +25,8 @@ class App extends Component {
           <WisdomResorts />
           <br />
           <Kamdhenu />
+          <br />
+          <VNRLodge />
           <br />
           <SubmitForm />
           <br />

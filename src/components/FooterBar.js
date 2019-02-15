@@ -21,7 +21,8 @@ class FooterBar extends Component {
                 <div class="row mt-3 dark-grey-text">
                     <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Hotels@BASARA</h6>
-                        <p>Here you can use rows and columns here to organize your footer</p>
+                        <p>Hotels at basara not only just provides you rooms we will try make your trip as a good memory. We
+                        provide complete information about temple timings and local guidance.</p>
                     </div>
      
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -59,9 +60,9 @@ class FooterBar extends Component {
                         <p>
                         <i class="fa-building-o"></i> Hyderabad, Telangana 500055, INDIA</p>
                         <p>
-                        <i class="fa-envelope mr-3"></i> contact@hotelsatbasara.com</p>
+                        <i class="fa-envelope mr-3"></i> hotelsatbasara@gmail.com</p>
                         <p>
-                        <i class="fa-phone mr-3"></i> + 91 9700 522 316</p>
+                        <i class="fa-phone mr-3"></i> + 91 7993886111</p>
 
                     </div>
                 </div>

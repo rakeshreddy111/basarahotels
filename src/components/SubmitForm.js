@@ -109,7 +109,7 @@ class SubmitForm extends Component {
 				<div style={{textAlign: 'center'}} class="container-contact100-form-btn" >
 					<button class="contact100-form-btn">
 						<span>
-							Book
+							Book &nbsp;&nbsp;&nbsp;&nbsp;
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
 					</button>

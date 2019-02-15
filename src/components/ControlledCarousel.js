@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import b1 from '../images/b1.jpg';
+import b2 from '../images/b2.jpg';
+import b3 from '../images/b3.jpg';
 import '../App.css';
 
 class ControlledCarousel extends Component {
@@ -9,36 +12,31 @@ class ControlledCarousel extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 image"
-            src="https://images7.alphacoders.com/411/411820.jpg"
+            src={b1}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Hotels at Basara Provides you different kinds of rooms for you stay In basara.</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 image"
-            src="https://images.alphacoders.com/541/541999.jpg"
+            src={b2}
             alt="Third slide"
           />
       
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 image"
-            src="https://images8.alphacoders.com/528/528896.jpg"
+            src={b3}
             alt="Third slide"
           />
       
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
