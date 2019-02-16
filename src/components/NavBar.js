@@ -12,7 +12,7 @@ class NavBar extends Component {
                 <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
                     <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
                         <div class="header-bar-email">
-                            MAIL: <a href="#">hotelsatbasara@gmail.com</a>
+                            MAIL: <a href="/">hotelsatbasara@gmail.com</a>
                         </div>
 
                         <div class="header-bar-text">
@@ -40,21 +40,21 @@ class NavBar extends Component {
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src={logo} alt="logo"/></a>
+                           <a class="d-block" href="/" rel="home"><img class="d-block" src={logo} alt="logo"/></a>
                         </div>
 
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Hotels</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li class="current-menu-item"><a href="/">Home</a></li>
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/Hotels">Hotels</a></li>
+                                <li><a href="/">Terms</a></li>
+                                <li><a href="/">Contact</a></li>
 								<li></li>
                             </ul>
                         </nav>
 						
-						<a class="reserve" href="#">BOOK NOW</a>
+						<a class="reserve" href="/Reserve">BOOK NOW</a>
 
                         <div class="hamburger-menu d-lg-none">
                             <span></span>

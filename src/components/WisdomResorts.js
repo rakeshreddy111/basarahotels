@@ -62,7 +62,7 @@ class WisdomResorts extends Component {
           </div>
             <img class="card-img-bottom" src={nac1} alt="Card image" style={{width:'100%'}}/>
             
-            <a href="#" class="book">Book</a>
+            <a href="/Reserve" class="book">Book</a>
         </div>
 
         <div class="card" style={{width:'325px',height: '350px'}}>
@@ -71,7 +71,7 @@ class WisdomResorts extends Component {
           </div>
             <img class="card-img-bottom" src={ac1} alt="Card image" style={{width:'100%'}}/>
           
-            <a href="#" class="book">Book</a>
+            <a href="/Reserve" class="book">Book</a>
         </div>
 
         <div class="card" style={{width:'325px',height: '350px'}}>
@@ -80,7 +80,7 @@ class WisdomResorts extends Component {
           </div>
             <img class="card-img-bottom" src={nac2} alt="Card image" style={{width:'100%'}}/>
           
-            <a href="#" class="book">Book</a>
+            <a href="/Reserve" class="book">Book</a>
         </div>
 
         <div class="card" style={{width:'325px',height: '350px'}}>
@@ -89,7 +89,7 @@ class WisdomResorts extends Component {
           </div>
             <img class="card-img-bottom" src={ac2} alt="Card image" style={{width:'100%'}}/>
   
-            <a href="#" class="book">Book</a>
+            <a href="/Reserve" class="book">Book</a>
         </div>
 
         <div class="card" style={{width:'325px',height: '350px'}}>
@@ -98,7 +98,7 @@ class WisdomResorts extends Component {
         </div>
           <img class="card-img-bottom" src={nac3} alt="Card image" style={{width:'100%'}}/>
         
-          <a href="#" class="book">Book</a>
+          <a href="/Reserve" class="book">Book</a>
       </div>
 
       <div class="card" style={{width:'325px',height: '350px'}}>
@@ -107,7 +107,7 @@ class WisdomResorts extends Component {
         </div>
           <img class="card-img-bottom" src={ac3} alt="Card image" style={{width:'100%'}}/>
 
-          <a href="#" class="book">Book</a>
+          <a href="/Reserve" class="book">Book</a>
       </div>
 
         <br />

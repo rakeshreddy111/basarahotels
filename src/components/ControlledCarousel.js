@@ -25,7 +25,6 @@ class ControlledCarousel extends Component {
             src={b2}
             alt="Third slide"
           />
-      
           <Carousel.Caption>
           </Carousel.Caption>
         </Carousel.Item>

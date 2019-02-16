@@ -28,29 +28,29 @@ class FooterBar extends Component {
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Products</h6>
                         <p>
-                            <a href="#!">Reserve a Room</a>
+                            <a style={{color:'orangered'}} href="/Reserve">Reserve a Room</a>
                         </p>
                         <p>
-                            <a href="#!">Darshanam</a>
+                            <a style={{color:'orangered'}} href="/">Darshanam</a>
                         </p>
                         <p>
-                            <a href="#!">Tour Packages</a>
+                            <a style={{color:'orangered'}} href="/">Tour Packages</a>
                         </p>
                     </div>
       
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                         <p>
-                        <a href="#!">About Basara</a>
+                        <a target="_blank" style={{color:'orangered'}} href="http://www.basaratemple.org/">About Basara</a>
                         </p>
                         <p>
-                        <a href="#!">Other places in Nizamabad</a>
+                        <a target="_blank" style={{color:'orangered'}} href="https://www.holidayiq.com/Nizamabad-Sightseeing-663.html">Other places in Nizamabad</a>
                         </p>
                         <p>
-                        <a href="#!">Telangana Tourism</a>
+                        <a target="_blank" style={{color:'orangered'}} href="https://www.telanganatourism.gov.in/">Telangana Tourism</a>
                         </p>
                         <p>
-                        <a href="#!">Incredible India</a>
+                        <a target="_blank" style={{color:'orangered'}} href="http://www.incredibleindia.com/">Incredible India</a>
                         </p>
                         
                     </div>
@@ -58,18 +58,18 @@ class FooterBar extends Component {
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Contact</h6>
                         <p>
-                        <i class="fa-building-o"></i> Hyderabad, Telangana 500055, INDIA</p>
+                            <i class="fa fa-building-o mr-2"></i> Hyderabad, Telangana 500055, INDIA</p>
                         <p>
-                        <i class="fa-envelope mr-3"></i> hotelsatbasara@gmail.com</p>
+                            <i class="fa fa-envelope mr-2"></i> hotelsatbasara@gmail.com</p>
                         <p>
-                        <i class="fa-phone mr-3"></i> + 91 7993886111</p>
+                            <i class="fa fa-phone mr-2"></i> + 91 7993886111</p>
 
                     </div>
                 </div>
             </div>
     
             <div class="footer-copyright text-center text-black-50 py-3">© 2019 Copyright:
-                Hotels@Basara
+                <b>Hotels@BASARA</b>
             </div>
         </footer>
       );

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import NavBar from './NavBar';
+import Carousel from './ControlledCarousel';
+import Footer from './FooterBar';
 import '../App.css';
 
-class SubmitForm extends Component {
+class Reserve extends Component {
   
     render() {
       return (
         <div>
+        <NavBar />
+        <br />
         <span style={{textAlign: 'center'}} class="contact100-form-title">
 					Reserve a Room
 				</span>
@@ -115,9 +120,11 @@ class SubmitForm extends Component {
 					</button>
 				</div>
         </form>
+        <br />
+        <Footer />
         </div>
       );
     }
   }
   
-  export default SubmitForm;
+  export default Reserve;
