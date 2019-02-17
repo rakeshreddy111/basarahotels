@@ -2,23 +2,16 @@ import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Footer from './FooterBar';
 import WisdomResorts from './WisdomResorts';
-import Kamdhenu from './Kamdhenu';
-import VNRLodge from './VNRLodge';
 import '../App.css';
 
 
-class Hotels extends Component {
+class WisdomResortsHome extends Component {
   render() {
     return (
       <div className="App">
         <NavBar />
-        <div>
+        <br />
             <WisdomResorts />
-            <br />
-            <Kamdhenu />
-            <br />
-            <VNRLodge />
-        </div>
         <br />
         <Footer />
       </div>
@@ -26,4 +19,4 @@ class Hotels extends Component {
   }
 }
 
-export default Hotels;
+export default WisdomResortsHome;

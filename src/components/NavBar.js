@@ -49,7 +49,7 @@ class NavBar extends Component {
                                 <li><a href="/">About us</a></li>
                                 <li><a href="/Hotels">Hotels</a></li>
                                 <li><a href="/">Terms</a></li>
-                                <li><a href="/">Contact</a></li>
+                                <li><a href="/Contact">Contact</a></li>
 								<li></li>
                             </ul>
                         </nav>
