@@ -58,7 +58,7 @@ class FooterBar extends Component {
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Contact</h6>
                         <p>
-                            <i class="fa fa-building-o mr-2"></i> Hyderabad, Telangana 500055, INDIA</p>
+                            <i class="far fa-building mr-2"></i> Hyderabad, Telangana 500055, INDIA</p>
                         <p>
                             <i class="fa fa-envelope mr-2"></i> hotelsatbasara@gmail.com</p>
                         <p>
@@ -68,7 +68,7 @@ class FooterBar extends Component {
                 </div>
             </div>
     
-            <div class="footer-copyright text-center text-black-50 py-3">© 2019 Copyright:
+            <div class="footer-copyright text-center text-black-50 py-3"><i class="far fa-copyright"></i> 2019 Copyright:
                 <b>Hotels@BASARA</b>
             </div>
         </footer>

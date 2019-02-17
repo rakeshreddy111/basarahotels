@@ -14,7 +14,7 @@ class HomeHotels extends Component {
             <div className="text">
               <h3 style={{color:'orangered'}}>Wisdom Resorts</h3>
               <h6>Prices start form &#x20B9; 999</h6>
-              <p><a href="/Hotels" rel="noopener noreferrer">Explore More</a></p>
+              <p><a href="/Hotels" rel="noopener noreferrer">Know more and Book</a></p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ class HomeHotels extends Component {
             <div className="text">
               <h3 style={{color:'orangered'}}>Kamdhenu Hotel</h3>
               <h6>Prices start form &#x20B9; 999</h6>
-              <p><a href="/Hotels" rel="noopener noreferrer">Explore More</a></p>
+              <p><a href="/Hotels" rel="noopener noreferrer">Know more and Book</a></p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ class HomeHotels extends Component {
             <div className="text">
               <h3 style={{color:'orangered'}}>VNR Lodge</h3>
               <h6>Prices start form &#x20B9; 999</h6>
-              <p><a href="/Hotels" rel="noopener noreferrer">Explore More</a></p>
+              <p><a href="/Hotels" rel="noopener noreferrer">Know more and Book</a></p>
             </div>
           </div>
         </div>

@@ -16,19 +16,19 @@ class NavBar extends Component {
                         </div>
 
                         <div class="header-bar-text">
-                            <p>PHONE: <span>+91 7993886111</span></p>
+                            PHONE: <span>+91 7993886111</span>
                         </div>
                     </div>
 
                     <div class="footer-social-icons">
 						<h5 class="_10">Follow us on</h5>
                         <ul class="social-icons">
-							<li></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                            <li></li>
+                            <li><a href="" class="social-icon"> <i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                            <li><a href="" class="social-icon"> <i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+                            <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
 						</ul>
 					</div>
                 </div>

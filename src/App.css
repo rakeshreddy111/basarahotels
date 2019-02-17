@@ -178,6 +178,7 @@ color: white;
 }
 ul.social-icons {
 margin-top: 10px;
+margin-left: 50px;
 }
 .social-icons li {
 vertical-align: top;
@@ -201,7 +202,7 @@ background-color: #322f30;
 background-color: #3d5b99;
 }
 .fa-twitter {
-padding:10px 12px;
+padding:10px 11px;
 -o-transition:.5s;
 -ms-transition:.5s;
 -moz-transition:.5s;
@@ -213,7 +214,7 @@ background-color: #322f30;
 background-color: #00aced;
 }
 .fa-rss {
-padding:10px 14px;
+padding:10px 12px;
 -o-transition:.5s;
 -ms-transition:.5s;
 -moz-transition:.5s;
@@ -225,7 +226,7 @@ background-color: #322f30;
 background-color: #eb8231;
 }
 .fa-youtube {
-padding:10px 14px;
+padding:10px 11px;
 -o-transition:.5s;
 -ms-transition:.5s;
 -moz-transition:.5s;
@@ -236,19 +237,7 @@ background-color: #322f30;
 .fa-youtube:hover {
 background-color: #e64a41;
 }
-.fa-linkedin {
-padding:10px 14px;
--o-transition:.5s;
--ms-transition:.5s;
--moz-transition:.5s;
--webkit-transition:.5s;
-transition: .5s;
-background-color: #322f30;
-}
-.fa-linkedin:hover {
-background-color: #0073a4;
-}
-.fa-google-plus {
+.fa-google-plus-g {
 padding:10px 9px;
 -o-transition:.5s;
 -ms-transition:.5s;
@@ -257,9 +246,23 @@ padding:10px 9px;
 transition: .5s;
 background-color: #322f30;
 }
-.fa-google-plus:hover {
+.fa-google-plus-g:hover {
 background-color: #e25714;
 }
+
+.fa-facebook-f {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+  }
+
+  .fa-facebook-f:hover {
+  background-color: #3B5998;
+  }
 
 /* Footer */
 a:link {
@@ -363,8 +366,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-  font-family: Poppins-Regular;
-  font-size: 14px;
   line-height: 1.7;
   color: #666666;
   margin: 0px;
@@ -1030,6 +1031,108 @@ animation: beatbtn 0.9s ease-in-out infinite;
 }
 
 .text a {
-  color: #00c8c8;
+  color: #21d192;
   text-decoration: none;
+}
+
+#portfolio
+	{
+		padding-top: 3em;
+	}
+	
+	#portfolio .box
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.7);
+	}
+	
+	#portfolio h3
+	{
+		display: block;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		font-size: 1em;
+		color: rgba(0,0,0,0.9);
+	}
+
+	#portfolio .title
+	{
+		margin-bottom: 5em;
+		text-align: center;
+	}
+
+	#portfolio .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+	#portfolio .title .byline
+	{
+		letter-spacing: normal;
+		text-transform: capitalize;
+		font-size: 1.6em;
+		color: rgba(0,0,0,0.6);
+	}
+	
+	#portfolio .icon
+	{
+		display: inline-block;
+    margin-bottom: 1.25em;
+    font-size: 2.2em;
+		color: tomato;
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+  }
+  
+  body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 11pt;
+		font-weight: 400;
+		color: #000000;
+  }
+  
+  p
+	{
+		line-height: 180%;
+  }
+  
+  p, ol, ul
+	{
+		margin-top: 0;
+  }
+  
+  h6{
+    padding-bottom: 6px;
+  }
+
+  #wrapper3
+	{
+		overflow: hidden;
+		background: #FFF;
+  }
+  
+  a {
+    text-decoration: none !important;
 }

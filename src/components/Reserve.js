@@ -115,7 +115,7 @@ class Reserve extends Component {
 					<button class="contact100-form-btn">
 						<span>
 							Book &nbsp;&nbsp;&nbsp;&nbsp;
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							<i class="fas fa-long-arrow-alt-right m-l-7" aria-hidden="true"></i>
 						</span>
 					</button>
 				</div>
