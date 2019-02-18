@@ -9,6 +9,7 @@ import Hotels from './components/Hotels';
 import WisdomResortsHome from './components/WisdomResortsHome';
 import KamdhenuHome from './components/KamdhenuHome';
 import VNRLodgeHome from './components/VNRLodgeHome';
+import Terms from './components/Terms';
 import Contact from './components/Contact';
 import * as serviceWorker from './serviceWorker';
 
@@ -21,6 +22,7 @@ ReactDOM.render((
             <Route path="/WisdomResorts" component={WisdomResortsHome} />
             <Route path="/Kamdhenu" component={KamdhenuHome} />
             <Route path="/VNRLodge" component={VNRLodgeHome} />
+            <Route path="/Terms" component={Terms} />
             <Route path="/Contact" component={Contact} />
         </div>
     </BrowserRouter>)

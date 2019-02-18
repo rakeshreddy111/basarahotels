@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class NavBar extends Component {
@@ -45,16 +46,16 @@ class NavBar extends Component {
 
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="/">Home</a></li>
-                                <li><a href="/">About us</a></li>
-                                <li><a href="/Hotels">Hotels</a></li>
-                                <li><a href="/">Terms</a></li>
-                                <li><a href="/Contact">Contact</a></li>
+                                <li><Link to="/" activeClassName="active">Home</Link></li>
+                                <li><Link to="/" activeClassName="active">About us</Link></li>
+                                <li><Link to="/Hotels" activeClassName="active">Hotels</Link></li>
+                                <li><Link to="/Terms" activeClassName="active">Terms</Link></li>
+                                <li><Link to="/Contact" activeClassName="active">Contact</Link></li>
 								<li></li>
                             </ul>
                         </nav>
 						
-						<a class="reserve" href="/Reserve">BOOK NOW</a>
+						<Link class="reserve" to="/Reserve">BOOK NOW</Link>
 
                         <div class="hamburger-menu d-lg-none">
                             <span></span>
