@@ -43,7 +43,7 @@ class AboutUs extends Component {
                       <div class="box">
                 <span class="icon fas fa-gopuram"></span>
                 <h3><b>Darshanam</b></h3>
-                <p>We also offer darshanam package.</p>
+                <p>We also offer free assistance during Darshanam.</p>
                   </div>
               </div>
         </div>
