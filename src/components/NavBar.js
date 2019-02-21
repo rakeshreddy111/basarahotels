@@ -25,7 +25,7 @@ class NavBar extends Component {
 						<h5 class="_10">Follow us on</h5>
                         <ul class="social-icons">
                             <li></li>
-                            <li><a href="" class="social-icon"> <i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/Hotels-At-Basara-2660259190667850/?modal=admin_todo_tour" class="social-icon"> <i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
                             <li><a href="" class="social-icon"> <i class="fab fa-google-plus-g"></i></a></li>
                             <li><a href="" class="social-icon"> <i class="fab fa-youtube"></i></a></li>

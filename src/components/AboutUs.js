@@ -29,14 +29,14 @@ class AboutUs extends Component {
                       <div class="box">
                 <span class="icon fas fa-plane-departure"></span>
                 <h3><b>Tour Packages</b></h3>
-                <p>Not just hotel booking, We also offer tour packages. Contact us to know more.</p>
+                <p>Not just hotel booking, Hotels at Basara also offer tour packages. Contact us to know more.</p>
               </div>
             </div>
                   <div class="column3">
                       <div class="box">
                 <span class="icon fas fa-hotel"></span>
                 <h3><b>Wide range of Hotels</b></h3>
-                <p>We are in the collaboration with the local hotels and provide tourists with wide range of options.</p>
+                <p>Hotels at Basara are in the collaboration with the local hotels and provide tourists with wide range of options.</p>
               </div>
             </div>
                   <div class="column4">
