@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Reserve from './components/Reserve';
 import Hotels from './components/Hotels';
 import WisdomResortsHome from './components/WisdomResortsHome';

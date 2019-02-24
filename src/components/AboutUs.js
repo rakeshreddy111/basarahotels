@@ -10,8 +10,8 @@ class AboutUs extends Component {
       <br />
       <div class="container">
       Hotels at Basara provides you different kinds of hotel rooms for you stay in Basara.
-      We are in collaboration with all kinds hotels in basara. We have Premium and Budget hotels.
-      We provide you best stay in basara and make your trip one of the best memories.  
+      Hotels at Basara is in collaboration with all kinds hotels in basara and provides you with best possible rates. We have Premium and Budget hotels.
+      We provide you best stay in basara and make your trip one of the best memories.   
       </div>  
       <div id="wrapper3">
             <div id="portfolio" class="container">
