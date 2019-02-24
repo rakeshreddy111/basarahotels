@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
-import Carousel from './ControlledCarousel';
 import Footer from './FooterBar';
 import '../App.css';
 
@@ -56,6 +55,34 @@ class Reserve extends Component {
               <span class="label-input100">Check-out Date</span>
                 <input class="input100" type="date" name="checkoutDate" required="required"/>
               <span class="focus-input100"></span>
+          </div>
+        </div>
+
+        <div class="alert alert-info">
+          <strong>Info!</strong> Please visit Hotels tab to know more about Hotel, Room Type and their respective rates.
+        </div>
+
+        <div class="row">
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Hotel</span>
+                <select class="form-control" name="hotel">
+                  <option value="Wisdom resorts">Wisdom Resorts</option>
+                  <option value="Kamdhenu">Kamdhenu</option>
+                  <option value="VNR Lodge">VNR Lodge</option>
+                </select>
+          </div>
+
+          <div class="col wrap-input100 rs1-wrap-input100 validate-input">
+              <span class="label-input100">Room Type</span>
+              <br />
+                <select class="form-control" name="room">
+                  <option value="Double bed - Non ac">Double Bed - Non Ac</option>
+                  <option value="Double bed - Ac">Double Bed - Ac</option>
+                  <option value="Triple bed - Non ac">Triple Bed - Non Ac</option>
+                  <option value="Triple Bed - Ac">Triple Bed - Ac</option>
+                  <option value="Quad bed - Non ac">Quad Bed - Non Ac</option>
+                  <option value="Quad bed - Ac">Quad Bed - Ac</option>
+                </select>
           </div>
         </div>
 
