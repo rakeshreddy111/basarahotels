@@ -13,7 +13,7 @@ class NavBar extends Component {
                 <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
                     <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
                         <div class="header-bar-email">
-                            MAIL: <a href="/">hotelsatbasara@gmail.com</a>
+                            MAIL: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hotelsatbasara@gmail.com" target="_blank">hotelsatbasara@gmail.com</a>
                         </div>
 
                         <div class="header-bar-text">
