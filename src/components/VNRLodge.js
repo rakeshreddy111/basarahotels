@@ -35,9 +35,9 @@ class VNRLodge extends Component {
         <p style={{fontSize: '17px', marginLeft: '121px', marginRight: '121px'}}> It is just 100 mts away from temple, 3 kms away from Basara Railway Station and 1 km away from Basara RTC Bus Stand.<br/>
         Price ranges from  <b>Rs: 999 to 1999</b>. </p>
         
-        <p style={{fontSize: '17px', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose VNR Lodge? </b></p><br/>
+        <p style={{fontSize: '1vw', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose VNR Lodge? </b></p><br/>
         
-        <p style={{fontSize: '17px', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. It is a new construction.<br/>
+        <p style={{fontSize: '1vw', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. It is a new construction.<br/>
         2. It has all brand new ac’s tv’s ,geysers and new beds.<br/>
         3. With in 1 min you can find all shops like Tiffin centers , ATMS, etc.<br/></p>
     

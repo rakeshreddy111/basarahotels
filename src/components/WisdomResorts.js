@@ -45,9 +45,9 @@ class WisdomResorts extends Component {
 
         Price Ranges from  <b>Rs:999 to 1699</b>. All rooms are hygienic and  equipped with Ac’s ,TV’s, geysers in affordable  price range with clean and hygienic bathrooms. We provide you neat and clean bedsheets.  <br/><br/></p>
         
-        <p style={{fontSize: '17px', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose Wisdom Resorts? </b></p><br/>
+        <p style={{fontSize: '1vw', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose Wisdom Resorts? </b></p><br/>
         
-        <p style={{fontSize: '17px', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. You can get any room because of affordable prie.<br/>
+        <p style={{fontSize: '1vw', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. You can get any room because of affordable prie.<br/>
         2. Located in a present environment on the banks of the river godhavari.<br/>
         3. It is a perfect place to stay for devotees and travelers seeking utmost comfort and privacy on a visit to basara.<br/>
         4. It has a play are where your children can have a great time. <br/>

@@ -39,9 +39,9 @@ class Kamdhenu extends Component {
         Railway Station and 1 km away from Basara RTC Bus Stand.<br/>
         It provides you all types of rooms ranges from <b>Rs:999 to 1699</b>. ATM,shops and Tiffin’s centers are very near. <br/><br/></p>
         
-        <p style={{fontSize: '17px', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose Kamadenu Hotel? </b></p><br/>
+        <p style={{fontSize: '1vw', marginLeft: '197px', marginRight: '121px', textAlign: 'left'}}><b>Why to choose Kamadenu Hotel? </b></p><br/>
         
-        <p style={{fontSize: '17px', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. As it is near to temple you can find all shops tiffin centers and banks, atms in a walkable distance.<br/>
+        <p style={{fontSize: '1vw', marginLeft: '250px', marginRight: '121px', textAlign: 'left'}}>1. As it is near to temple you can find all shops tiffin centers and banks, atms in a walkable distance.<br/>
         2. Temple is in just walkable distance.<br/>
         3. Prices starts from Rs:999<br/>
         4. Thru solar power you will get hot water 24/7 <br/></p><br /><br />
